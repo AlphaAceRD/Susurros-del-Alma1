@@ -1,0 +1,197 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://github.com/AlphaAceRD/recursos-para-susurros-del-alma/blob/main/FONDO%20NUEVO.jpg?raw=true);
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: repeat; /* Evita que la imagen se repita */
+    width: auto;
+    height: 100vh; /* Asegura que el cuerpo ocupe el 100% de la altura de la ventana */
+    color: #000000;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: black;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+main {
+    padding: 20px;
+}
+
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.article-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.article-item img {
+    width: 100%;
+    height: auto;
+}
+
+.article-content {
+    padding: 15px;
+}
+
+.article-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.article-content p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Efectos de hover */
+.article-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Efecto al hacer click */
+.article-item:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.poem {
+    max-width: 600px;
+    margin: 50px auto;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.poem p {
+    margin-bottom: 20px;
+}
+
+.back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: black;
+    margin-top: 50px;
+}
+
+footer p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links a img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+
+.social-links a img:hover {
+    transform: scale(1.2);
+}
+.poem-meaning {
+    max-width: 600px;
+    margin: 30px auto;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.poem-meaning h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333;
+}
+.author {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1rem;
+    color: #555;
+}
+footer {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    text-align: center; /* Centrar el texto */
+    padding: 20px 0; /* Espaciado superior e inferior */
+}
+
+.footer-content {
+    max-width: 800px; /* Ancho máximo */
+    margin: 0 auto; /* Centrar */
+}
+
+.social-links {
+    margin-top: 10px; /* Espacio superior */
+}
+
+.social-links a {
+    margin: 0 10px; /* Espaciado entre iconos */
+}
+
+.social-links img {
+    width: 24px; /* Ancho de los iconos */
+    height: auto; /* Mantener proporciones */
+    transition: transform 0.3s; /* Efecto de transición */
+}
+
+.social-links a:hover img {
+    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
